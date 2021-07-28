@@ -9,6 +9,6 @@ public class FindUserTest {
 		
 		UserJdbcServer userdb = new UserJdbcServer();
 		User user = userdb.findUser("vini");
-		System.out.println("User: " + user);
+		System.out.println("User:: " + user);
 	}
 }
